@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Recipe Finder</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h2>Recipe Finder</h2>
+            <img src="images/recipe.svg" alt="search" />
+        </header>
+        <section class="container">
+            <div id="loading"></div>
+            <div class="search">
+                <input 
+                id="txtSearch" 
+                type="text" 
+                Placeholder="Search Favorite" 
+                autofocus
+                />
+                <button class="btn">Find</button>
+            </div>
+            <div id="recipe-container"></div>
+        </section>
+    </body>
+</html>
